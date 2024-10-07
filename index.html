@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="Web development and design for business"
@@ -52,11 +53,24 @@
             </li>
           </ul>
         </address>
+        <button class="menu-btn" type="button">
+          <svg class="menu-icon" width="24" height="24">
+            <use href="./images/burger.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu is-open">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close">Close</button>
+          <nav>Mob Navigation</nav>
+          <address>Mob Address</address>
+          <div>Mob Social links</div>
+        </div>
       </div>
     </header>
     <main>
       <!-- Section1 -->
-      <section class="section prime-section">
+      <section class="hidden section prime-section">
         <div class="container prime-container">
           <h1 class="prime-name">Effective Solutions for Your Business</h1>
           <button class="button-name" type="button" data-modal-open>
@@ -65,7 +79,7 @@
         </div>
       </section>
       <!-- Section2 -->
-      <section class="section">
+      <section class="hidden section">
         <div class="container">
           <h2 class="visually-hidden">Our main priorities</h2>
           <ul class="priorities-list">
@@ -121,7 +135,7 @@
         </div>
       </section>
       <!-- Section3 -->
-      <section class="section section-team">
+      <section class="hidden section section-team">
         <div class="container">
           <h2 class="team-header">Our Team</h2>
           <ul class="team-list">
@@ -301,7 +315,7 @@
         </div>
       </section>
       <!-- Section4 -->
-      <section class="section">
+      <section class="hidden section">
         <div class="container">
           <h2 class="section-portfolio">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -430,7 +444,7 @@
       </section>
     </main>
     <!---- Footer ---->
-    <footer class="page-footer">
+    <footer class="hidden page-footer">
       <div class="container div-footer">
         <div class="footer-div">
           <a class="logo footer-logo" href="./index.html"
@@ -496,7 +510,7 @@
       </div>
     </footer>
     <!-------Modal page------->
-    <div class="backdrop is-open" data-modal>
+    <div class="hidden backdrop is-open" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="modal-close" width="8" height="8">
