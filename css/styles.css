@@ -297,22 +297,27 @@ button {
   color: #404bbf;
 }
 
-.mob-menu-adr-container {
+.mob-contacts {
   display: block;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
+  margin-bottom: 48px;
+  font-style: normal;
 }
 
 .mob-contacts-list {
+  display: flex;
+  margin-right: auto;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mob-contacts-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.mob-contacts-number {
+.phone-number {
   color: #4d5ae5;
 }
 
@@ -328,14 +333,14 @@ button {
 .mob-social-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 40px;
 }
 
 .mob-ellipse {
   display: flex;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
   align-items: center;
   justify-content: center;
   fill: #4d5ae5;
