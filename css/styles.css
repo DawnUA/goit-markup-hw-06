@@ -412,6 +412,15 @@ button {
   color: #fff;
 }
 
+@media (min-resolution: 192dpi) {
+  .prime-section {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ), url(../images/people-office-ret.jpg);
+  }
+}
+
 @media screen and (max-width: 767px) {
   .prime-section {
     max-width: 100%;
@@ -741,6 +750,10 @@ button {
   overflow: hidden;
 }
 
+.section-img {
+  width: 100%;
+}
+
 .portfolio-text {
   position: absolute;
   top: 0;
@@ -774,19 +787,23 @@ button {
 
 @media screen and (max-width: 767px) {
   .portfolio-container {
-    padding: 28px;
+    padding: 0 16px;
   }
 
   .portfolio-list {
-    max-width: 264px;
+    max-width: 288px;
     flex-direction: column;
     gap: 48px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
+  .portfolio-container {
+    padding: 0 16px;
+  }
+
   .portfolio-list {
-    max-width: 736px;
+    max-width: 734px;
     gap: 72px 24px;
     flex-wrap: wrap;
   }
