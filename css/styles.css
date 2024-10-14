@@ -1142,6 +1142,10 @@ button {
   margin-bottom: 16px;
 }
 
+.form-section {
+  margin-bottom: 8px;
+}
+
 .label-content {
   font-size: 12px;
   line-height: 1.17;
@@ -1276,10 +1280,6 @@ button {
   .modal {
     width: 288px;
     min-height: 623px;
-  }
-
-  .form-section {
-    margin-bottom: 16px;
   }
 }
 
